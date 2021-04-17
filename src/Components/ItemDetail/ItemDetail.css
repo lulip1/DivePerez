@@ -1,0 +1,8 @@
+.cursos {
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-around;
+   
+    
+}

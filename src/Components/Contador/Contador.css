@@ -1,0 +1,14 @@
+.Contador-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    height: 3rem;
+
+}
+
+.Buttons-conatiner {
+    display: flex;
+}

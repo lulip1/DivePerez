@@ -1,0 +1,15 @@
+// Card Open Water certificate
+    
+    <Card className="item" style={{ width: '18rem' }}>
+  <Card.Body>
+    <Card.Title>Curso Open Water</Card.Title>
+    <Card.Text>
+    Curso inicial de buceo. Con este certificado podrás sumergirte hasta 18 metros. 2 sesiones en pileta y 4 buceos en aguas abiertas.
+    </Card.Text>
+    <Card.Text>
+    Costo: $12.000
+    </Card.Text>
+    <Card.Link href="#">Calendario</Card.Link>
+    <Card.Link href="#">Comprar</Card.Link>
+  </Card.Body>
+</Card>

@@ -17,7 +17,7 @@ export default class Menu extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto estilo">
-                            <Nav.Link href="/Inicio">Inicio</Nav.Link>
+                            <Nav.Link href="/">Inicio</Nav.Link>
                             <NavDropdown title="Certificate" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="Certificate/openwater">Open Water</NavDropdown.Item>
                                 <NavDropdown.Item href="Certificate/advanced">Adavanced Open Water</NavDropdown.Item>

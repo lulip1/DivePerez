@@ -2,3 +2,8 @@
     display: flex;
     font-size: 1rem;
 }
+
+.shop {
+    display: flex;
+    height: 50px;
+}

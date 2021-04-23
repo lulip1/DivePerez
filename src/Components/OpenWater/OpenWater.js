@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button, Item, ItemDescription } from 'semantic-ui-react'
 import Contador from '../../Components/Contador/Contador';
 import buzoisla from '../../Components/Imagenes/buzoisla.jpg'
@@ -29,8 +29,10 @@ const OpenWater = () => (
 
 
                 <Item.Extra>
+                    
                     <Button floated='right'>Agregar</Button>
                     <Contador />
+                   
                 </Item.Extra>
             </Item.Content>
         </Item>

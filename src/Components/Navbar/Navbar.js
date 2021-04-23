@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import FormControl from 'react-bootstrap/FormControl'
 import './Navbar.css'
-
+import Shop from '../Imagenes/shopping.png'
 
 export default class Menu extends Component {
     render() {
@@ -28,11 +28,13 @@ export default class Menu extends Component {
                             <Nav.Link href="/Contacto">Contacto</Nav.Link>
                         </Nav>
                         <Form inline>
-                            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                            <Button variant="outline-success">Search</Button>
+                            <FormControl type="text" placeholder="Buscar" className="mr-sm-2" />
+                            <Button variant="outline-success">Buscar</Button>
+                            <img src={Shop} className="shop"/>
                         </Form>
                     </Navbar.Collapse>
                 </Navbar>
+               
 
             </div>
         )

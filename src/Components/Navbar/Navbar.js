@@ -23,6 +23,7 @@ export default class Menu extends Component {
                                 <NavDropdown.Item href="Certificate/advanced">Adavanced Open Water</NavDropdown.Item>
                                 <NavDropdown.Item href="Certificate/rescue">Rescue Diver</NavDropdown.Item>
                             </NavDropdown>
+                            <Nav.Link href="/Cursos">Cursos</Nav.Link>
                             <Nav.Link href="/Explora">Explorá</Nav.Link>
                             <Nav.Link href="/Conservacion">Conservación</Nav.Link>
                             <Nav.Link href="/Contacto">Contacto</Nav.Link>

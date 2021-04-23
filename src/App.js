@@ -10,6 +10,9 @@ import Inicio from './Views/Inicio/Inicio';
 import openwater from './Views/Certificate/openwater/openwater';
 import rescue from './Views/Certificate/rescue/rescue';
 import advanced from './Views/Certificate/advanced/advanced';
+import Cart from './Views/Cart/Cart';
+import {CartProvider} from './CartContext/CartContext';
+import CartList from './Components/CartList/CartList';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -27,7 +30,11 @@ function App () {
         <Route path="/Conservacion" component={Conservacion} />
         <Route path="/Contacto" component={Contacto} />
         <Route path="/Explora" component={Explora} />
+        <Route path="/Cart" component={Cart} />
       </Switch>
+      <CartProvider>
+        <CartList/>
+      </CartProvider>
       <Footer />
      </div>
      </Router>
